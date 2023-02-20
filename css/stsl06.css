@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* profile section start */
+
+.profile {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+.profile-photo{
+    float: left;
+    width: 30%;
+}
+.profile-photo img {
+    width: 150px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
+.profile-details {
+    float: right;
+    width: 70%;
+    text-align: left;
+}
+.profile-details h3 {
+    font-family: 'Exo 2';
+    color: #34495e;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.profile-details p {
+    font-family: 'Exo 2';
+    color: #34495e;
+    font-size: 19px;
+    font-weight: 600;
+}
+.profile-details a {
+    display: block;
+    text-decoration: none;
+    color: #34495e;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    margin: 10px 0;
+}
+/* profile section end */
+
+/* table section start */
+.table-section {
+    margin-top: 50px;
+}
+.tbl-date-head {
+    float: left;
+    width: 20%;
+    background-color: #34495e;
+}
+.tbl-date-head p {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 5px;
+}
+.tbl-assigenment-head{
+    float: left;
+    width: 20%;
+    background-color: #34495e;
+}
+.tbl-assigenment-head p{
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 5px;
+}
+.tbl-yes-head{
+    float: left;
+    width: 20%;
+    background-color: #34495e;
+}
+.tbl-yes-head p{
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 5px;
+}
+.tbl-no-head{
+    float: left;
+    width: 20%;
+    background-color: #34495e;
+}
+.tbl-no-head p{
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 5px;
+}
+.tbl-tk{
+    float: left;
+    width: 20%;
+    background-color: #34495e;
+}
+.tbl-tk p{
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 5px;
+}
+
+
+/* table data */
+.table-data {
+    border-bottom: 1px solid #ddd;
+}
+.date{
+    float: left;
+    width: 20%;
+}
+.date p {
+    font-family: 'Exo 2';
+    padding: 8px 5px;
+}
+.assignment{
+    float: left;
+    width: 20%;
+}
+.assignment p{
+    font-family: 'Exo 2';
+    padding: 8px 5px;
+}
+.yes{
+    float: left;
+    width: 20%;
+}
+.yes span{
+    font-family: 'Exo 2';
+    padding: 8px 5px;
+    display: inline-block;
+}
+.no{
+    float: left;
+    width: 20%;
+}
+.no span{
+    font-family: 'Exo 2';
+    padding: 8px 5px;
+    display: inline-block;
+}
+.tk{
+    float: left;
+    width: 20%;
+}
+.tk p{
+    font-family: 'Exo 2';
+    padding: 8px 5px;
+}
+
+
+/* table section end */
+
+/* Total amount section start */
+.total-amount-section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.total-left {
+    float: left;
+    width: 80%;
+    background-color: #34495e;
+    text-align: center;
+}
+.total-left p {
+    color: white;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    padding: 8px 0;
+}
+.total-right {
+    float: right;
+    width: 20%;
+    background-color: #34495e;
+}
+.total-right p {
+    padding: 8px 0;
+    color: white;
+    font-family: 'Exo 2';
+    font-weight: 600;
+}
+/* Total amount section end */
+
+/* Print btn section */
+.print-btn {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.print-btn a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    background-color: #34495e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
